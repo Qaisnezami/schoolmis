@@ -26,7 +26,7 @@ To set up the schoolMIS application, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/qaisnezami/schoolmis.git`
 2. Configure environment variables: Run `cd schoolmis && cp .env.example .env` ,
-3. Build docker: `composer install`
+3. Install composer: `composer install`
 4. Generate application key: `php artisan key:generate`
 5. Run migrations: `php artisan migrate` (This command sets up the database tables based on defined migrations)
 6. (Optional) Seed the database: `php artisan db:seed` (This command populates the database with sample data, if available)
