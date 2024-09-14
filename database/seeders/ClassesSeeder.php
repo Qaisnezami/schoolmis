@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\classes;
+use App\Models\Classes;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,6 +13,6 @@ class ClassesSeeder extends Seeder
      */
     public function run(): void
     {
-        classes::factory(10)->create();
+        Classes::factory(10)->create();
     }
 }
